@@ -92,7 +92,7 @@ int parenthesisMatcher(char *exp)
 int main(int argc, char const *argv[])
 {
 
-    char *exp = "{[()]}()[]";
+    const char *exp = "{[()]}()[]";
     if (parenthesisMatcher(exp))
     {
         printf("Parenthesis are matching.\n");
